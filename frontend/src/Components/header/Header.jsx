@@ -9,9 +9,6 @@ const Header = () => {
                 <strong>Привет, меня зовут <em>Артем</em></strong><br />
                 Я Frontend-разработчик
             </h1>
-            <div className="header__text">
-                <p>Ищу работу!</p>
-            </div>
                 <a href="https://cv.hexlet.io/ru/resumes/2417" className="btn">Посмотреть резюме</a>
             </div>
     </header>
