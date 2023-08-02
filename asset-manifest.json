@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.81326028.css",
-    "main.js": "/static/js/main.a1962228.js",
-    "static/media/game-brains.jpg": "/static/media/game-brains.42bf76121d2018c9bb4a.jpg",
-    "static/media/gendiff.jpg": "/static/media/gendiff.d554c62b025d14f4c97f.jpg",
-    "static/media/project-rss.jpg": "/static/media/project-rss.bc877745d145429126b2.jpg",
-    "static/media/project-chat.jpg": "/static/media/project-chat.e5790466f61e609193c0.jpg",
-    "static/media/gitHub.svg": "/static/media/gitHub.471c3409325b2867b7e99b7b3a94b87e.svg",
-    "static/media/gitHub-black.svg": "/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
-    "index.html": "/index.html",
-    "main.81326028.css.map": "/static/css/main.81326028.css.map",
-    "main.a1962228.js.map": "/static/js/main.a1962228.js.map"
+    "main.css": "/portfolio/static/css/main.81326028.css",
+    "main.js": "/portfolio/static/js/main.d1554645.js",
+    "static/media/game-brains.jpg": "/portfolio/static/media/game-brains.42bf76121d2018c9bb4a.jpg",
+    "static/media/gendiff.jpg": "/portfolio/static/media/gendiff.d554c62b025d14f4c97f.jpg",
+    "static/media/project-rss.jpg": "/portfolio/static/media/project-rss.bc877745d145429126b2.jpg",
+    "static/media/project-chat.jpg": "/portfolio/static/media/project-chat.e5790466f61e609193c0.jpg",
+    "static/media/gitHub.svg": "/portfolio/static/media/gitHub.471c3409325b2867b7e99b7b3a94b87e.svg",
+    "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "index.html": "/portfolio/index.html",
+    "main.81326028.css.map": "/portfolio/static/css/main.81326028.css.map",
+    "main.d1554645.js.map": "/portfolio/static/js/main.d1554645.js.map"
   },
   "entrypoints": [
     "static/css/main.81326028.css",
-    "static/js/main.a1962228.js"
+    "static/js/main.d1554645.js"
   ]
 }
