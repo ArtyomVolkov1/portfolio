@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.81326028.css",
-    "main.js": "/portfolio/static/js/main.d1554645.js",
+    "main.js": "/portfolio/static/js/main.7ae8ab74.js",
     "static/media/game-brains.jpg": "/portfolio/static/media/game-brains.42bf76121d2018c9bb4a.jpg",
     "static/media/gendiff.jpg": "/portfolio/static/media/gendiff.d554c62b025d14f4c97f.jpg",
     "static/media/project-rss.jpg": "/portfolio/static/media/project-rss.bc877745d145429126b2.jpg",
@@ -10,10 +10,10 @@
     "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "index.html": "/portfolio/index.html",
     "main.81326028.css.map": "/portfolio/static/css/main.81326028.css.map",
-    "main.d1554645.js.map": "/portfolio/static/js/main.d1554645.js.map"
+    "main.7ae8ab74.js.map": "/portfolio/static/js/main.7ae8ab74.js.map"
   },
   "entrypoints": [
     "static/css/main.81326028.css",
-    "static/js/main.d1554645.js"
+    "static/js/main.7ae8ab74.js"
   ]
 }
