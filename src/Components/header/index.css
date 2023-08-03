@@ -24,14 +24,14 @@
 }
 
 .header__title strong {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 .header__title em {
     color: #5C62EC;
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
