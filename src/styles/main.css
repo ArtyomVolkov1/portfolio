@@ -113,7 +113,10 @@ html, body {
         font-size: 30px;
     }
     .header__title strong {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    .header__title em {
+        font-size: 35px;
     }
     .section {
         padding: 40px 0;
@@ -146,6 +149,6 @@ html, body {
         width: 28px;
     }
     .btn-project__text {
-        font-size: 13px;
+        font-size: 17px;
     }
 }
