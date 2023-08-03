@@ -145,4 +145,7 @@ html, body {
     .social__item {
         width: 28px;
     }
+    .btn-project__text {
+        font-size: 13px;
+    }
 }
