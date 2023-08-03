@@ -11,7 +11,7 @@ const Project = () => {
                     <h3 className="project__title">{title}</h3>
             <Link to={githubLink} className="btn-project">
                         <img src={buttonImg} alt="github-black" />
-                        {buttonName}
+                        <p className="btn-project__text">{buttonName}</p>
                     </Link>
                 </li>
     ))
