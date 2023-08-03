@@ -8,9 +8,9 @@ const Navbar = () => {
     <nav className="nav">
         <div className="container">
             <div className="nav-row">
-                <Link to="/portfolio" className="logo"><strong>Portfolio</strong></Link>
+                <Link to="/" className="logo"><strong>Portfolio</strong></Link>
                 <ul className="nav-list">
-                    <li className="nav-list__item"><NavLink to="/portfolio" className={({isActive, isPending}) => isPending ? '' : isActive ? 'nav-list__link ' + 'nav-list__link--active' : 'nav-list__link' }>Home</NavLink></li>
+                    <li className="nav-list__item"><NavLink to="/" className={({isActive, isPending}) => isPending ? '' : isActive ? 'nav-list__link ' + 'nav-list__link--active' : 'nav-list__link' }>Home</NavLink></li>
                     <li className="nav-list__item"><NavLink to="/projects" className={({isActive, isPending}) => isPending ? '' : isActive ? 'nav-list__link ' + 'nav-list__link--active' : 'nav-list__link' }>Projects</NavLink></li>
                     <li className="nav-list__item"><NavLink to="/contacts" className={({isActive, isPending}) => isPending ? '' : isActive ? 'nav-list__link ' + 'nav-list__link--active' : 'nav-list__link' }>Contacts</NavLink></li>
                 </ul>

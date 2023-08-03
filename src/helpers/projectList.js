@@ -11,7 +11,7 @@ const projects = [
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-11',
         buttonImg: gitHubBlack,
         buttonName: 'Github repo',
-
+        key: 1,
     },
     {
         title: 'Chat' ,
@@ -19,7 +19,7 @@ const projects = [
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-12',
         buttonImg: gitHubBlack,
         buttonName: 'Github repo',
-
+        key: 2,
     },
     {
         title: 'Difference Calculator' ,
@@ -27,7 +27,7 @@ const projects = [
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-46',
         buttonImg: gitHubBlack,
         buttonName: 'Github repo',
-
+        key: 3,
     },
     {
         title: 'Brain-Games' ,
@@ -35,7 +35,7 @@ const projects = [
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-44',
         buttonImg: gitHubBlack,
         buttonName: 'Github repo',
-
+        key: 4,
     },
 ];
 
