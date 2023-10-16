@@ -4,7 +4,12 @@ import './index.css';
 
 const Header = () => {
   const [text] = useTypewriter({
-    words: ['Хочу найти рабо', 'Фронтенд-разработчик', 'Frontend-Developer','Верстальщик'],
+    words: [
+      'Фронтенд-разработчик',
+      'Хочу найти рабо',
+      'Frontend-Developer',
+      'Верстальщик',
+    ],
     loop: {},
     typeSpeed: 110,
     delaySpeed: 2700,
