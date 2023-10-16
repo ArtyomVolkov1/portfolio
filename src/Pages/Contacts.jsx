@@ -8,11 +8,11 @@ const Contacts = () => {
       <Navbar />
     <main className="section">
         <div className="container">
-            <h1 className="title-1">Contacts</h1>
+            <h1 className="title-1">Контакты</h1>
             <ul className="contact-list">
                 <li className="contact-list__item">
-                    <h2 className="title-2">Location</h2>
-                    <p>Saint-Petersburg, Russia</p>
+                    <h2 className="title-2">Местоположение</h2>
+                    <p>Санкт-Петербург, Россия</p>
                 </li>
                 <li className="contact-list__item">
                     <h2 className="title-2">Telegram / WhatsApp</h2>

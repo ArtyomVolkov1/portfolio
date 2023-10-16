@@ -1,21 +1,17 @@
 import React from 'react';
 import './index.css';
-import { projects } from '../../helpers/projectList';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const Project = () => {
+const Project = ({title, img, index}) => {
   return (
-    projects.map(({ title, img, githubLink, buttonImg, buttonName, key }) => (
-      <li key={key} className="project">
-                    <img className="project__img" src={img} alt="project-gendiff" />
-                    <h3 className="project__title">{title}</h3>
-            <Link to={githubLink} className="btn-project">
-                        <img src={buttonImg} alt="github-black" />
-                        <p className="btn-project__text">{buttonName}</p>
-                    </Link>
-                </li>
-    ))
+      <li className='project'>
+        <img className='project__img' src={img} alt='project-gendiff' />
+        <h3 className='project__title'>{title}</h3>
+        <NavLink to={`/project/${index}`} className='btn-project'>
+          <p className='btn-project__text'>Посмотреть</p>
+        </NavLink>
+      </li>
   );
-}
+};
 
 export default Project;

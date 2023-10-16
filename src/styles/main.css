@@ -13,13 +13,12 @@
     --black-border:  #171718;
     --white: #fff;
     --purple: #5C62EC;
+    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
 
 }
 
 
 html, body {
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
@@ -31,6 +30,8 @@ html, body {
 
 .App {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -44,6 +45,15 @@ html, body {
     padding: 70px 0;
 }
 
+.section__title {
+    display: flex;
+    justify-content: center;
+}
+
+.section__title--skills {
+    color: #5C62EC !important;
+}
+
 
 .title-1 {
     margin-bottom: 60px;
@@ -55,27 +65,67 @@ html, body {
 }
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     column-gap: 30px;
     row-gap: 30px;
 }
 
+/* Project details */
+
+.project-details {
+	margin: 0 auto;
+	max-width: 865px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+}
+
+.project-details__cover {
+	max-width: 100%;
+	margin-bottom: 40px;
+
+	box-shadow: var(--box-shadow);
+	border-radius: 10px;
+}
+
+.project-details__desc {
+	margin-bottom: 30px;
+
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+.project-details__desc > p {
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.active-link {
+    transition: all 0.2s ease-in;
+}
+
+.active-link:hover {
+    transform: scale(1.06);
+}
 /* Content Skills */
 
 .content-list {
-    margin: 0 auto;
-    max-width: 570px;
     display: flex;
-    flex-direction: column;
+    gap: 10px;
     align-items: center;
     text-align: center;
 }
 
 .content-list__item {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
+    
 }
 
 /* Contacts */
@@ -130,7 +180,9 @@ html, body {
         font-size: 20px;
     }
     .projects {
-        justify-content: center;
+        /* justify-content: center; */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-items: center;
     }
     .project-details__description {
         margin-bottom: 20px;

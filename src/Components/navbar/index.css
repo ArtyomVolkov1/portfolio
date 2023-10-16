@@ -1,62 +1,74 @@
 .nav {
-    padding: 20px 0;
-    border-bottom: 1px solid #26292D;
-    background-color: #171718;
-    color: #fff;
-    letter-spacing: normal;
+  padding: 20px 0;
+  border-bottom: 1px solid #26292d;
+  background-color: #171718;
+  color: #fff;
+  letter-spacing: normal;
 }
 
 .nav-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 30px;
-    row-gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
 }
 
 .logo {
-    color: #FFF;
-    font-family: 'Poppins', sans-serif ;
-    font-size: 24px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  background: linear-gradient(to right, midnightblue, white 80%, #5c62ec 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
 }
 
 .logo strong {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.logo:hover {
+  background-position: 0 100%;
 }
 
 .nav-list {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    align-items: center;
-    column-gap: 40px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif ;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  column-gap: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-list__link {
-    color: #FFF;
-    transition: opacity 0.2s ease-in;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
 }
 
 .nav-list__link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .nav-list__link--active {
-    position: relative;
+  position: relative;
 }
 
 .nav-list__link--active::before {
-    content: "";
-    
-    position: absolute;
-    left: 0;
-    top: 100%;
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: #5C62EC;
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #5c62ec;
 }

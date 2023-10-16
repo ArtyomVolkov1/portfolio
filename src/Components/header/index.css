@@ -7,6 +7,10 @@
     align-items: center;
 
     background-color:  var(--black);
+    background-image: url('../../img/background-img/header-bg.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
     color: var(--white);
     text-align: center;
 }
