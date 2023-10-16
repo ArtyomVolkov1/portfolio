@@ -35,7 +35,7 @@ const Skills = () => {
       };
   return (
     <div className="container">
-    <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlaySpeed={1000}  autoPlay={true} responsive={responsive} infinite={true} className="content-list">
+    <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlaySpeed={1350}  autoPlay={true} responsive={responsive} infinite={true} className="content-list">
         <div className="content-list__item"><img src={htmlIcon} alt="html-icon" /></div>
         <div className="content-list__item"><img src={CSS3Icon} alt="css3-icon" /></div>
         <div className="content-list__item"><img src={SassIcon} alt="Sass-icon" /></div>
