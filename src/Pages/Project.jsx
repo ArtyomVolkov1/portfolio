@@ -22,7 +22,7 @@ const Project = () => {
                 className='project-details__cover'
               />
             ) : (
-              <NavLink to={project.deployLink}>
+              <NavLink target='_blank' rel='noreferrer' to={project.deployLink}>
                 <img
                   src={project.imgBig}
                   alt={project.title}
