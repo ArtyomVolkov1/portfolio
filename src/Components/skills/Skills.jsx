@@ -52,14 +52,3 @@ const Skills = () => {
 }
 
 export default Skills;
-
-
-{/* <div className="container">
-<ul className="content-list">
-    <li className="content-list__item"><img src={reactIcon} alt="react" /></li>
-    <li className="content-list__item"><img src={reactIcon} alt="react" /></li>
-    <li className="content-list__item"><img src={reactIcon} alt="react" /></li>
-    <li className="content-list__item"><img src={reactIcon} alt="react" /></li>
-    <li className="content-list__item"><img src={reactIcon} alt="react" /></li>
-</ul>
-</div> */}
