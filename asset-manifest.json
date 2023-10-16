@@ -1,19 +1,38 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9513e9f6.css",
-    "main.js": "/portfolio/static/js/main.63504e03.js",
-    "static/media/game-brains.jpg": "/portfolio/static/media/game-brains.42bf76121d2018c9bb4a.jpg",
-    "static/media/gendiff.jpg": "/portfolio/static/media/gendiff.d554c62b025d14f4c97f.jpg",
-    "static/media/project-rss.jpg": "/portfolio/static/media/project-rss.bc877745d145429126b2.jpg",
+    "main.css": "/portfolio/static/css/main.6f677108.css",
+    "main.js": "/portfolio/static/js/main.35bc111e.js",
+    "static/media/artagent.png": "/portfolio/static/media/artagent.fbbc8dff818365283af6.png",
+    "static/media/RSS.png": "/portfolio/static/media/RSS.3ed0a78f7ec5f527d618.png",
+    "static/media/rss.png": "/portfolio/static/media/rss.08d30432e93e614c47aa.png",
+    "static/media/brain-games.png": "/portfolio/static/media/brain-games.c6e3d45bef921bfd03a2.png",
+    "static/media/artagent-small.png": "/portfolio/static/media/artagent-small.2a51914834497aca38d4.png",
+    "static/media/gendiff.png": "/portfolio/static/media/gendiff.172277337ea3654d488b.png",
+    "static/media/brain-games-small.png": "/portfolio/static/media/brain-games-small.446a12232311873d4e2c.png",
+    "static/media/chat-big.png": "/portfolio/static/media/chat-big.027c3eaf315ea875070b.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/project-chat.jpg": "/portfolio/static/media/project-chat.e5790466f61e609193c0.jpg",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/Sass.svg": "/portfolio/static/media/Sass.e5eb1eb1771ea2b7d9eb78631145df07.svg",
+    "static/media/React.svg": "/portfolio/static/media/React.f87f7ca27a9fcc693022c21a38089779.svg",
     "static/media/gitHub.svg": "/portfolio/static/media/gitHub.471c3409325b2867b7e99b7b3a94b87e.svg",
     "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "static/media/TypeScript.svg": "/portfolio/static/media/TypeScript.80dd1ff814ed7cd8c9b481f5cf7b5e5b.svg",
+    "static/media/Nodejs.svg": "/portfolio/static/media/Nodejs.59ece67f0a811b5ff2e3d3164777177a.svg",
+    "static/media/Redux.svg": "/portfolio/static/media/Redux.01f8c77563519935ed614a33f8df843b.svg",
+    "static/media/header-bg.svg": "/portfolio/static/media/header-bg.e70aef6c319f42d29972.svg",
+    "static/media/Bootstrap.svg": "/portfolio/static/media/Bootstrap.c8e09d4bdf4dbd1b6ba469530fc61b05.svg",
+    "static/media/CSS3.svg": "/portfolio/static/media/CSS3.dee45c9a2a0a215be77edfe906eecb19.svg",
+    "static/media/Javascript.svg": "/portfolio/static/media/Javascript.6f7aa131cb0f49f56709f63fc120f4e4.svg",
+    "static/media/Figma.svg": "/portfolio/static/media/Figma.e1155f4b82d85780845d316e100ac024.svg",
+    "static/media/HTML5.svg": "/portfolio/static/media/HTML5.015821734013a8db06316f7d5972a2f6.svg",
     "index.html": "/portfolio/index.html",
-    "main.9513e9f6.css.map": "/portfolio/static/css/main.9513e9f6.css.map",
-    "main.63504e03.js.map": "/portfolio/static/js/main.63504e03.js.map"
+    "main.6f677108.css.map": "/portfolio/static/css/main.6f677108.css.map",
+    "main.35bc111e.js.map": "/portfolio/static/js/main.35bc111e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9513e9f6.css",
-    "static/js/main.63504e03.js"
+    "static/css/main.6f677108.css",
+    "static/js/main.35bc111e.js"
   ]
 }
