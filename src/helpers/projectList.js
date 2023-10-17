@@ -1,4 +1,4 @@
-import rssSmall from '../img/projects/RSS.png';
+import rssSmall from '../img/projects/rss.png';
 import rssBig from '../img/projects/rss.png';
 import chat from '../img/projects/project-chat.jpg';
 import chatBig from '../img/projects/chat-big.png';
@@ -34,6 +34,7 @@ const projects = [
         buttonImg: gitHubBlack,
         buttonName: 'Github repo',
         description: 'Realtime приложение, упрощенный аналог чата Slack',
+        warning: '*Приложение может открыться не сразу, нужно немножко подождать! Это связано с тем, что Render останавливает бесплатный веб-сервис, который в течение 15 минут не получает входящего трафика. Спасибо за понимание.',
         skills: 'React, Redux-toolkit, Socket.io, REST API, React Router, Formik, React-bootstrap',
         key: 2,
     },

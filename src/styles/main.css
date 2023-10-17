@@ -117,13 +117,18 @@ html, body {
 .project-details__desc-description {
     font-weight: 400;
     font-size: 20px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+}
+
+.warning {
+    opacity: 0.6;
+    font-size: 15px;
 }
 
 .project-details__desc-skills {
     font-weight: 400;
     font-size: 20px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 /* Link */
@@ -214,6 +219,11 @@ html, body {
 
     .project-details__desc-description {
         font-size: 15px;
+    }
+
+    .warning {
+        opacity: 0.6;
+        font-size: 12px;
     }
     
     .project-details__desc-skills {

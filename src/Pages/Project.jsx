@@ -34,6 +34,7 @@ const Project = () => {
               <div className='project-details__desc-description'>
                 <h3>Описание:</h3>
                 <p>{project.description}</p>
+                {project.warning && <p className='warning'>{project.warning}</p> }
               </div>
               <div className='project-details__desc-skills'>
                 <h3>Навыки:</h3>
