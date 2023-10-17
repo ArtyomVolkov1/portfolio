@@ -6,7 +6,6 @@ const Header = () => {
   const [text] = useTypewriter({
     words: [
       'Фронтенд-разработчик',
-      'Хочу найти рабо',
       'Frontend-Developer',
       'Верстальщик',
     ],
