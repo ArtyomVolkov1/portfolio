@@ -31,7 +31,14 @@ const Project = () => {
               </NavLink>
             )}
             <div className='project-details__desc'>
-              Навыки:<p>{project.skills}</p>
+              <div className='project-details__desc-description'>
+                <h3>Описание:</h3>
+                <p>{project.description}</p>
+              </div>
+              <div className='project-details__desc-skills'>
+                <h3>Навыки:</h3>
+                <p>{project.skills}</p>
+              </div>
             </div>
             <BtnGithub link={project.githubLink} />
           </div>

@@ -95,7 +95,13 @@ html, body {
 	border-radius: 10px;
 }
 
+/* Description Project  */
+
 .project-details__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 	margin-bottom: 30px;
 
 	font-weight: 700;
@@ -103,10 +109,24 @@ html, body {
 	line-height: 1.3;
 }
 
-.project-details__desc > p {
+.project-details__desc h3 {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.project-details__desc-description {
     font-weight: 400;
+    font-size: 20px;
     opacity: 0.8;
 }
+
+.project-details__desc-skills {
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Link */
 
 .active-link {
     transition: all 0.2s ease-in;
@@ -184,10 +204,22 @@ html, body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-items: center;
     }
-    .project-details__description {
+    .project-details__desc {
         margin-bottom: 20px;
-        font-size: 20px;
     }
+
+    .project-details__desc h3 {
+        font-size: 18px;
+    }
+
+    .project-details__desc-description {
+        font-size: 15px;
+    }
+    
+    .project-details__desc-skills {
+        font-size: 15px;
+    } 
+
     .project__title {
         font-size: 22px;
     }
