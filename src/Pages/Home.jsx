@@ -21,8 +21,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// <li className="content-list__item">
-// <h2 className="title-2">Frontend</h2>
-// <p>JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, Bootstrap</p>
-// </li>
