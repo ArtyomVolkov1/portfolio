@@ -1,18 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f677108.css",
-    "main.js": "/portfolio/static/js/main.dadece4d.js",
-    "static/media/artagent.png": "/portfolio/static/media/artagent.fbbc8dff818365283af6.png",
+    "main.js": "/portfolio/static/js/main.9133d35c.js",
+    "static/media/artagent.png": "/portfolio/static/media/artagent.244bc9e29fc63fb083ab.png",
     "static/media/RSS.png": "/portfolio/static/media/RSS.3ed0a78f7ec5f527d618.png",
-    "static/media/rss.png": "/portfolio/static/media/rss.08d30432e93e614c47aa.png",
-    "static/media/brain-games.png": "/portfolio/static/media/brain-games.c6e3d45bef921bfd03a2.png",
-    "static/media/artagent-small.png": "/portfolio/static/media/artagent-small.2a51914834497aca38d4.png",
-    "static/media/gendiff.png": "/portfolio/static/media/gendiff.172277337ea3654d488b.png",
-    "static/media/brain-games-small.png": "/portfolio/static/media/brain-games-small.446a12232311873d4e2c.png",
-    "static/media/chat-big.png": "/portfolio/static/media/chat-big.027c3eaf315ea875070b.png",
+    "static/media/rss.png": "/portfolio/static/media/rss.6283c0831187a50d56d5.png",
+    "static/media/artagent-small.png": "/portfolio/static/media/artagent-small.7c5e2a82f9ae835114d3.png",
+    "static/media/brain-games.png": "/portfolio/static/media/brain-games.f174f2906ab8729ff72c.png",
+    "static/media/gendiff.png": "/portfolio/static/media/gendiff.10fd38db316b03795b88.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/project-chat.jpg": "/portfolio/static/media/project-chat.e5790466f61e609193c0.jpg",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/Sass.svg": "/portfolio/static/media/Sass.e5eb1eb1771ea2b7d9eb78631145df07.svg",
     "static/media/React.svg": "/portfolio/static/media/React.f87f7ca27a9fcc693022c21a38089779.svg",
@@ -29,10 +26,10 @@
     "static/media/HTML5.svg": "/portfolio/static/media/HTML5.015821734013a8db06316f7d5972a2f6.svg",
     "index.html": "/portfolio/index.html",
     "main.6f677108.css.map": "/portfolio/static/css/main.6f677108.css.map",
-    "main.dadece4d.js.map": "/portfolio/static/js/main.dadece4d.js.map"
+    "main.9133d35c.js.map": "/portfolio/static/js/main.9133d35c.js.map"
   },
   "entrypoints": [
     "static/css/main.6f677108.css",
-    "static/js/main.dadece4d.js"
+    "static/js/main.9133d35c.js"
   ]
 }
