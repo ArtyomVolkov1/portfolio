@@ -181,12 +181,16 @@ html, body {
 }
 
 @media (max-width: 620px) {
+    .App {
+     justify-content: normal
+    }
+
     .header {
         min-height: unset;
     }
 
     .header__title {
-        font-size: 30px;
+        font-size: 25px;
     }
     .header__title strong {
         font-size: 35px;
