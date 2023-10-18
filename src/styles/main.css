@@ -32,7 +32,6 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 
@@ -181,12 +180,8 @@ html, body {
 }
 
 @media (max-width: 620px) {
-    .App {
-     justify-content: normal
-    }
-
     .header {
-        min-height: unset;
+        min-height: 55vh;
     }
 
     .header__title {
