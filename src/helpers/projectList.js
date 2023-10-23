@@ -1,14 +1,14 @@
 import rssSmall from '../img/projects/rss.png';
 import rssBig from '../img/projects/rss.png';
-import chat from '../img/projects/project-chat.jpg';
 import chatBig from '../img/projects/chat-big.png';
+import chatAppSm from '../img/projects/chatApp-sm.png'
 import gendiffSmall from '../img/projects/gendiff-small.png';
 import gendiffBig from '../img/projects/gendiff.png';
 import brainSmall from '../img/projects/brain-games-small.png';
 import brainBig from '../img/projects/brain-games.png';
 import gitHubBlack from '../img/icons/gitHub-black.svg';
-import artagent from '../img/projects/artagent-small.png';
-import artagentBig from '../img/projects/artagent.png';
+import artagentSm from '../img/projects/artagent-small.png';
+import architecturaBig from '../img/projects/architectural-big.png';
 
 const projects = [
     {
@@ -26,7 +26,7 @@ const projects = [
     },
     {
         title: 'Chat App' ,
-        img: chat,
+        img: chatAppSm,
         imgBig: chatBig,
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-12',
         deployLink: 'https://frontend-project-12-qyp1.onrender.com/',
@@ -40,8 +40,8 @@ const projects = [
     },
     {
         title: 'Landing' ,
-        img: artagent,
-        imgBig: artagentBig, 
+        img: artagentSm,
+        imgBig: architecturaBig, 
         githubLink: 'https://github.com/ArtyomVolkov1/architectural-agency',
         deployLink: 'https://artyomvolkov1.github.io/architectural-agency/',
         buttonImg: gitHubBlack,
