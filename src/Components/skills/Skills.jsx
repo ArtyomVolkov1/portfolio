@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import './index.css';
 import htmlIcon from '../../img/skills-icon/HTML5.svg';
 import CSS3Icon from '../../img/skills-icon/CSS3.svg';
 import SassIcon from '../../img/skills-icon/Sass.svg';
@@ -36,16 +35,16 @@ const Skills = () => {
   return (
     <div className="container">
     <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlaySpeed={1350}  autoPlay={true} responsive={responsive} infinite={true} className="content-list">
-        <div className="content-list__item"><img src={htmlIcon} alt="html-icon" /></div>
-        <div className="content-list__item"><img src={CSS3Icon} alt="css3-icon" /></div>
-        <div className="content-list__item"><img src={SassIcon} alt="Sass-icon" /></div>
-        <div className="content-list__item"><img src={FigmaIcon} alt="Figma-icon" /></div>
-        <div className="content-list__item"><img src={JavascriptIcon} alt="JS-icon" /></div>
-        <div className="content-list__item"><img src={TypeScriptIcon} alt="TS-icon" /></div>
-        <div className="content-list__item"><img src={NodejsIcon} alt="Node-icon" /></div>
-        <div className="content-list__item"><img src={reactIcon} alt="react-icon" /></div>
-        <div className="content-list__item"><img src={ReduxIcon} alt="Redux-icon" /></div>
-        <div className="content-list__item"><img src={BootstrapIcon} alt="Bootstrap-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={htmlIcon} alt="html-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={CSS3Icon} alt="css3-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={SassIcon} alt="Sass-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={FigmaIcon} alt="Figma-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={JavascriptIcon} alt="JS-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={TypeScriptIcon} alt="TS-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={NodejsIcon} alt="Node-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={reactIcon} alt="react-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={ReduxIcon} alt="Redux-icon" /></div>
+        <div className="content-list__item"><img draggable="false" src={BootstrapIcon} alt="Bootstrap-icon" /></div>
     </Carousel>
     </div>
   )
