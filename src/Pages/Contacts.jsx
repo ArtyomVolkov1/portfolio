@@ -16,7 +16,7 @@ const Contacts = () => {
                 </li>
                 <li className="contact-list__item">
                     <h2 className="title-2">Telegram / WhatsApp</h2>
-                    <p>@artyomguz{''}/{''}<a href="tel:+79114965729">+7 (911) 496-57-29</a></p>
+                    <p>@artyomguz{' '}/{' '}<a href="tel:+79114965729">+7 (911) 496-57-29</a></p>
                 </li>
                 <li className="contact-list__item">
                     <h2 className="title-2">Email</h2>
