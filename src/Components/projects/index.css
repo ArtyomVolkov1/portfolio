@@ -16,6 +16,8 @@
 }
 
 .project__img {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -33,9 +35,9 @@
   column-gap: 10px;
 
   max-width: 169px;
-  height: 48px;
+  height: 60px;
   padding: 12px 20px;
-  margin: 0 auto 15px;
+  margin: 0 auto 20px;
 
   border-radius: 5px;
   border: 1px solid #000;
