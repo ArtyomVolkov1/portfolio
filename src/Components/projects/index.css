@@ -12,7 +12,7 @@
 
 .project:hover, .project:focus-within {
   transition: transform 0.2s ease-in;
-  transform: scale(1.10);
+  transform: scale(1.07);
 }
 
 .project__img {
@@ -38,18 +38,20 @@
   height: 60px;
   padding: 12px 20px;
   margin: 0 auto 20px;
+  letter-spacing: 0.15px;
 
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid var(--black-border);
   color: black;
-  transition: all 0.3s;
+  transition: all 0.2s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
 .btn-project:hover {
-  opacity: 0.8;
+  background-color: var(--purple-btn);
+  color: var(--white);
 }
 
 .btn-project:active {
