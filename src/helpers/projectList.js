@@ -2,12 +2,12 @@
 import rssBig from '../img/projects/rss.png';
 import chatBig from '../img/projects/chat-big.png';
 // import chatAppSm from '../img/projects/chatApp-sm.png'
-// import gendiffSmall from '../img/projects/gendiff-small.png';
+import gendiffSmall from '../img/projects/gendiff-sm.png';
 import gendiffBig from '../img/projects/gendiff.png';
-// import brainSmall from '../img/projects/brain-games-small.png';
+import brainSmall from '../img/projects/brain-sm.png';
 import brainBig from '../img/projects/brain-games.png';
 import gitHubBlack from '../img/icons/gitHub-black.svg';
-// import artagentSm from '../img/projects/artagent-small.png';
+import architecturaSm from '../img/projects/architectural-sm.png';
 import architecturaBig from '../img/projects/architectural-big.png';
 import lookShareBig from '../img/projects/lookShare-big.png';
 import lookShareSm from '../img/projects/lookShare-sm.png';
@@ -56,7 +56,7 @@ const projects = [
     },
     {
         title: 'Landing' ,
-        img: architecturaBig,
+        img: architecturaSm,
         imgBig: architecturaBig, 
         githubLink: 'https://github.com/ArtyomVolkov1/architectural-agency',
         deployLink: 'https://artyomvolkov1.github.io/architectural-agency/',
@@ -69,7 +69,7 @@ const projects = [
     },
     {
         title: 'Brain-Games' ,
-        img: brainBig,
+        img: brainSmall,
         imgBig: brainBig, 
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-44',
         buttonImg: gitHubBlack,
@@ -80,7 +80,7 @@ const projects = [
     },
     {
         title: 'Difference Calculator' ,
-        img: gendiffBig,
+        img: gendiffSmall,
         imgBig: gendiffBig, 
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-46',
         buttonImg: gitHubBlack,
