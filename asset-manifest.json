@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0cc634c8.css",
-    "main.js": "/portfolio/static/js/main.db407c2a.js",
+    "main.css": "/portfolio/static/css/main.6a099b5a.css",
+    "main.js": "/portfolio/static/js/main.c39065e4.js",
     "static/media/lookShare-big.png": "/portfolio/static/media/lookShare-big.d9fc7836b89e9523bce3.png",
     "static/media/architectural-big.png": "/portfolio/static/media/architectural-big.84cb9d05640842a30e6a.png",
-    "static/media/architectural-sm.png": "/portfolio/static/media/architectural-sm.94840ee5ea2a652e0839.png",
+    "static/media/new-rss.png": "/portfolio/static/media/new-rss.4be3c4d7348fc1543df0.png",
     "static/media/rss.png": "/portfolio/static/media/rss.6283c0831187a50d56d5.png",
     "static/media/brain-games.png": "/portfolio/static/media/brain-games.f174f2906ab8729ff72c.png",
     "static/media/gendiff.png": "/portfolio/static/media/gendiff.10fd38db316b03795b88.png",
@@ -25,11 +25,11 @@
     "static/media/Figma.svg": "/portfolio/static/media/Figma.e1155f4b82d85780845d316e100ac024.svg",
     "static/media/HTML5.svg": "/portfolio/static/media/HTML5.015821734013a8db06316f7d5972a2f6.svg",
     "index.html": "/portfolio/index.html",
-    "main.0cc634c8.css.map": "/portfolio/static/css/main.0cc634c8.css.map",
-    "main.db407c2a.js.map": "/portfolio/static/js/main.db407c2a.js.map"
+    "main.6a099b5a.css.map": "/portfolio/static/css/main.6a099b5a.css.map",
+    "main.c39065e4.js.map": "/portfolio/static/js/main.c39065e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cc634c8.css",
-    "static/js/main.db407c2a.js"
+    "static/css/main.6a099b5a.css",
+    "static/js/main.c39065e4.js"
   ]
 }
