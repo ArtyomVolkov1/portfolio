@@ -1,22 +1,18 @@
-// import rssSmall from '../img/projects/rss.png';
 import rssBig from '../img/projects/rss.png';
 import chatBig from '../img/projects/chat-big.png';
-// import chatAppSm from '../img/projects/chatApp-sm.png'
 import gendiffSmall from '../img/projects/gendiff-sm.png';
 import gendiffBig from '../img/projects/gendiff.png';
 import brainSmall from '../img/projects/brain-sm.png';
 import brainBig from '../img/projects/brain-games.png';
 import gitHubBlack from '../img/icons/gitHub-black.svg';
-import architecturaSm from '../img/projects/architectural-sm.png';
 import architecturaBig from '../img/projects/architectural-big.png';
 import lookShareBig from '../img/projects/lookShare-big.png';
-import lookShareSm from '../img/projects/lookShare-sm.png';
-
+import newRss from '../img/projects/new-rss.png';
 
 const projects = [
     {
         title: 'Rss агрегатор' ,
-        img: rssBig,
+        img: newRss,
         imgBig: rssBig,
         githubLink: 'https://github.com/ArtyomVolkov1/frontend-project-11',
         deployLink: 'https://frontend-project-11-smoky-six.vercel.app/',
