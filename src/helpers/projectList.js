@@ -43,7 +43,7 @@ const projects = [
     },
     {
         title: 'Look&Share' ,
-        img: lookShareSm,
+        img: lookShareBig,
         imgBig: lookShareBig,
         githubLink: 'https://github.com/ArtyomVolkov1/fullstack_LookShareApp',
         deployLink: 'https://fullstack-look-share-app.vercel.app/sign-in',
@@ -56,7 +56,7 @@ const projects = [
     },
     {
         title: 'Landing' ,
-        img: architecturaSm,
+        img: architecturaBig,
         imgBig: architecturaBig, 
         githubLink: 'https://github.com/ArtyomVolkov1/architectural-agency',
         deployLink: 'https://artyomvolkov1.github.io/architectural-agency/',
