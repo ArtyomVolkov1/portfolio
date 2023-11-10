@@ -6,7 +6,7 @@ import brainSmall from '../img/projects/brain-sm.png';
 import brainBig from '../img/projects/brain-games.png';
 import gitHubBlack from '../img/icons/gitHub-black.svg';
 import architecturaBig from '../img/projects/architectural-big.png';
-import lookShareBig from '../img/projects/lookShare-big.png';
+import lookShareBig from '../img/projects/lookShareBig.png';
 import newRss from '../img/projects/new-rss.png';
 
 const projects = [
